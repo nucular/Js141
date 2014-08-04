@@ -1,0 +1,3 @@
+emulator/*
+environment.js
+main.js
