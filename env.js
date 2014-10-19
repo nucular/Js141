@@ -1,8 +1,7 @@
 var JsEnv = function() {
-}
+	this.run = function() {
+	}
 
-JsEnv.run = function() {
-}
-
-JsEnv.register = function(func, timing) {
+	this.register = function(func, timing) {
+	}
 }

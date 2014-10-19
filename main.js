@@ -1,6 +1,6 @@
 // This script creates the environment for the Busicom 141PF calculator
 
-var Js141 = new JsEnv();
+var env = new JsEnv();
 
 // Create all object instances
 var rom0 = new JsROM("3rd/romdumps/busicom.l01");
@@ -26,6 +26,6 @@ rom0.pout[2] = sipo1.pclock; sipo2.pclock = rom0.pout[2];
 sipo1.psout = sipo2.psin;
 
 // Register tick functions
-Js141.register(cpu.cycle, 10.8)
+env.register(cpu.cycle, 10.8)
 
-Js141.run();
+env.run();
