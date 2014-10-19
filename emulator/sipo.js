@@ -1,7 +1,7 @@
 var JsSIPO = function() {
-    var psin = {s: false};
-    var psout = {s: false};
-    var pout = [
+    this.psin = {s: false};
+    this.psout = {s: false};
+    this.pout = [
         {s: false}, {s: false}, {s: false}, {s: false}, {s: false},
         {s: false}, {s: false}, {s: false}, {s: false}, {s: false}
     ];
